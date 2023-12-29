@@ -1,0 +1,75 @@
+name: my_duka
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.12.1
+  firebase_core: ^2.21.0
+  cloud_firestore: ^4.12.2
+  firebase_messaging: ^14.7.6
+  provider: ^6.0.5
+  firebase_storage: ^11.4.1
+  fluttertoast: ^8.2.2
+  google_sign_in: ^6.1.6
+  shared_preferences: ^2.2.2
+  lint: ^2.2.0
+  http: ^0.13.5
+  flutter_rating_bar: ^4.0.1
+  flutter_riverpod: ^2.4.9
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_svg: ^2.0.9
+  gap: ^3.0.1
+  persistent_bottom_nav_bar: ^5.0.2
+  image_picker: ^0.8.7+1
+  flutter_stripe: ^9.0.0+1
+  flutter_native_splash: ^2.2.19
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  # This package generates native code to customize Flutter's default white native splash screen
+  # with background color and splash image.
+  # Customize the parameters below, and run the following command in the terminal:
+  # dart run flutter_native_splash:create
+  # To restore Flutter's default white splash screen, run the following command in the terminal:
+  # dart run flutter_native_splash:remove
+
+  # IMPORTANT NOTE: These parameter do not affect the configuration of Android 12 and later, which
+  # handle splash screens differently that prior versions of Android.  Android 12 and later must be
+  # configured specifically in the android_12 section below.
+  
+  # color or background_image is the only required parameter.  Use color to set the background
+  # of your splash screen to a solid color.  Use background_image to set the background of your
+  # splash screen to a png image.  This is useful for gradients. The image will be stretch to the
+  # size of the app. Only one parameter can be used, color and background_image cannot both be set.
+  image: "assets/images/logo.jpg"
+  color: "#ffffff"
+  android: true
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/general/
+    - assets/products/
+  
+  

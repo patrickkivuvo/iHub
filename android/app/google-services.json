@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "898370915227",
+    "project_id": "myduka-af931",
+    "storage_bucket": "myduka-af931.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898370915227:android:a4bf559769591cf5cd6f3e",
+        "android_client_info": {
+          "package_name": "com.example.my_duka"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5StMOYNxhd-EDnw3t9O3IT1eo7GXH0Is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
